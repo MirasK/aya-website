@@ -1,0 +1,155 @@
+.banner{
+    color: #fff;
+    background-image: linear-gradient( rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)  ), url('../../../assets/images/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    padding:40px 0px;
+}
+
+
+.banner__content{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;;
+    text-align: center;
+}
+
+.banner__top{
+    font-size:14px;
+}
+
+.banner__title{
+    font-size: 48px;
+    font-weight: 700;
+    margin-top:20px; 
+    margin-bottom:20px;
+}
+
+.banner__subtitle{
+    font-size:14px;
+    line-height: 1.5;
+}
+
+.banner__btn{
+    color:#fff;
+    background:#a2dc4d;
+    border:none;
+    outline: none;
+    padding:15px 30px;
+    font-size:14px;
+    margin-top:15px;
+}
+
+.banner__btn:hover{
+    background:transparent;
+    transition: .5s;
+    border:1px solid #fff;
+    padding:15px 30px;
+    font-size:14px;
+    margin-top:15px;
+}
+
+@media (max-width: 1024px){
+    .banner_content{
+        width:920px;
+
+    }
+
+}
+
+@media (max-width: 768px){
+    .banner_content{
+        width:700px;
+
+
+    }
+ 
+}
+
+@media (max-width: 567px){
+    .banner_content{
+        width:100%;
+
+    }
+
+    .top{
+        width:100%;
+
+    }
+}
+
+
+
+.work{
+    width: 100%;
+    background: #FCFCFC;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  
+  .work-header{
+    padding: 4% 0;
+    width: 50%;
+    min-height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .work-header__main-title{
+    font-size: 40px;
+    font-weight: 700;
+    color: #333;
+    text-align: center;
+  }
+  
+  .work__paragraph{
+    margin: 20px 0;
+    text-align: center;
+    color: #999;
+    font-size: 16px;
+    line-height: 1.7;
+    font-weight: 300;
+  }
+  .work-details{
+    min-height: 40%;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .work-detail{
+    min-height: 100%;
+    width: 250px;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .ico{
+    margin: 20px 0;
+    font-size: 80px;
+    color: #333;
+  }
+  
+  .work-detail__title{
+    margin: 30px 0;
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+  }
+  
+  

@@ -1,0 +1,47 @@
+.Contacts{
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 10px;
+    min-height: 80vh;
+}
+
+.Contacts__main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Contacts__column{
+    float: left;
+    // width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+}
+
+.Contacts__input{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+.Contacts__submit{
+    color:#fff;
+    background: #222;
+    padding:5px;
+    font-size:18px;
+    font-weight: 300;
+  
+    &:hover{
+        background-color: rgb(59, 59, 59);
+    }
+}
+
+.Contacts__map{
+    width: 500px;
+    height:400px;
+    margin-left: 100px;
+}

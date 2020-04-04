@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="42px" height="42px" viewBox="0 0 42 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.1 (78136) - https://sketchapp.com -->
+    <title>Tala_Web_FooterIcon_FB@1x</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M23.9220444,5 C19.1290656,5 17,7.07279269 17,11.0380471 L17,11.0380471 L17,15.4672991 L13,15.4672991 L13,20.6989225 L17,20.6989225 L17,36.397845 L23.6659783,36.397845 L23.6659783,20.6989225 L28.5209086,20.6989225 L29,15.4672991 L23.6659783,15.4672991 L23.6659783,13.2850922 C23.6659783,12.0369589 23.9220444,11.5425685 25.1548787,11.5425685 L25.1548787,11.5425685 L29,11.5425685 L29,5 L23.9220444,5 Z" id="path-1"></path>
+    </defs>
+    <g id="Tala_Web_FooterIcon_FB" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g>
+            <rect id="Rectangle" fill-opacity="0" fill="#757575" x="0" y="0" width="42" height="42"></rect>
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Clip-4" fill="#a4a4a4" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>

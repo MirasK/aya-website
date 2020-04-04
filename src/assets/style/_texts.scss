@@ -1,0 +1,71 @@
+@import './variables';
+
+.text--error {
+  color: $danger;
+  margin-bottom: 8px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.text--info {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.info-banner {
+  text-align: center;
+}
+
+.text--warning {
+  color: $warning;
+}
+
+.text--red {
+  color: red;
+}
+
+.text--center {
+  text-align: center;
+}
+
+.subtitle {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.text--bold {
+  font-weight: 600;
+}
+
+.page-title {
+  font-size: 36px;
+  font-weight: 700;
+  margin: 0;
+  width: 100%;
+
+  @media (max-width: 1200px) {
+    font-size: 30px;
+  }
+
+  @media (max-width: 576px) {
+    font-size: 18px;
+    text-align: center;
+  }
+}
+
+.page-subtitle {
+  font-weight: 600;
+  font-size: 24px;
+
+  @media (max-width: 576px) {
+    font-size: 18px;
+  }
+}
+
+.text--link {
+  font-weight: 600;
+  color: #11c6ee;
+  text-decoration: underline;
+  cursor: pointer;
+}

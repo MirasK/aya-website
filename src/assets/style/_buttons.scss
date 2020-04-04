@@ -1,0 +1,204 @@
+@import 'variables';
+
+.button-group {
+  display: flex;
+  justify-content: center;
+}
+
+.button-group--right {
+  justify-content: flex-end;
+}
+
+.button {
+  background-color: $danger;
+  border: none;
+  color: #fff;
+  padding: 10px;
+  min-width: 150px;
+  border-radius: 5px;
+  margin: 4px;
+  font-size: 11px;
+  font-weight: 600;
+  height: 40px;
+
+  &:active {
+    transform: scale(0.96);
+  }
+
+  &:hover {
+    background-color: $danger--hover;
+  }
+
+  @media (max-width: 576px) {
+    font-size: 11px;
+    min-width: 120px;
+  }
+}
+
+.button--success {
+  background-color: $success;
+
+  &:hover {
+    background-color: $success--hover;
+  }
+}
+
+.button--login {
+  background-color: $danger-login;
+
+  &:hover {
+    background-color: $danger-login--hover;
+  }
+}
+
+.button--danger {
+  background-color: $danger;
+
+  &:hover {
+    background-color: $danger--hover;
+  }
+}
+
+.button--empty {
+  background-color: #fff;
+  color: $danger;
+  border: 1px solid $danger;
+
+  &:hover {
+    color: #fff;
+    background-color: $danger;
+  }
+}
+
+.button--empty.button--success {
+  border-color: $success;
+  color: $success;
+
+  &:hover {
+    background-color: $success;
+    color: #fff;
+  }
+}
+
+.button--square {
+  width: 40px;
+  height: 40px;
+  min-width: unset;
+}
+
+.button--withicon {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+
+  &::after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    top: 0;
+    right: 40px;
+    background-color: #ff4343;
+  }
+
+  img {
+    width: 10px;
+    margin-right: 5px;
+  }
+}
+
+.button--link {
+  border: none;
+  background: none;
+  color: $success;
+  min-width: unset;
+  height: unset;
+  padding: 0;
+
+  &:hover {
+    background: none;
+    color: $success--hover;
+  }
+}
+
+.button--link.button--iconed {
+  border: none;
+  color: #4a4a4a;
+  display: flex;
+  align-items: center;
+  opacity: 0.5;
+  text-align: left;
+
+  img {
+    width: 12px;
+    margin-right: 8px;
+  }
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.button--link.button--danger {
+  color: $danger;
+}
+
+.button--disabled {
+  background-color: #ccc;
+
+  &:hover {
+    background-color: #ccc;
+  }
+}
+
+.button--link.button--success {
+  color: $success;
+}
+
+.button--order {
+  width: 170px;
+}
+
+.button--relative {
+  position: relative;
+}
+
+.button--115 {
+  width: 115px;
+}
+
+.button--slim {
+  height: 30px;
+  padding: 5px;
+}
+
+.button--blue {
+  background-color: #2fd1f5;
+
+  &:hover {
+    background-color: #11c6ee;
+  }
+}
+
+.button--blue.button--withicon {
+  &::after {
+    background-color: #069abb;
+  }
+}
+
+.button--card {
+  margin: 0;
+  width: 100%;
+  height: 50px;
+  font-size: 18px;
+
+  img {
+    width: 20px;
+  }
+
+  &::after {
+    right: 50px;
+  }
+}
