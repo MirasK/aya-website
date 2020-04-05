@@ -10,62 +10,32 @@ export default function Faq(){
             </h1>
 
             <div className="faq">
-                
+
 
                 <div className="faq__content">
-                    <h2 className="faq__content__title">What are the return policy?</h2>
+                    <h2 className="faq__content__title">How to install AYA?</h2>
                     <br/>
                     <p className="faq__content__text">
-                        Lorem ipsum dolor sit amet,
-                        consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        It all depends on the requirements of the bank. The Bank may require you to download its mobile application or go to their web application through your phone or download a separate mobile application.
                     </p>
                 </div>
 
                 <div className="faq__content">
-                    <h2 className="faq__content__title">What payment methods do you accept?</h2>
+                    <h2 className="faq__content__title">How long does data processing take?</h2>
                     <br/>
 
                     <p className="faq__content__text">
-                        Lorem ipsum dolor sit amet,
-                        consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        Data from the phone is extracted and transferred to the bank in 1-2 minutes. Then it all depends on the bank. In general, the whole procedure takes about 10 minutes.
                     </p>
                 </div>
 
 
                 <div className="faq__content">
-                    <h2 className="faq__content__title">Can I pre-order for the goods involved in the sale?</h2>
+                    <h2 className="faq__content__title">Who are your customers?</h2>
                     <br/>
 
                     <p className="faq__content__text">
-                        Lorem ipsum dolor sit amet,
-                        consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </p>
-                </div>
-
-
-                <div className="faq__content">
-                    <h2 className="faq__content__title">What are the return policy?</h2>
-                    <br/>
-
-                    <p className="faq__content__text">
-                        Lorem ipsum dolor sit amet,
-                        consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        In general, banks and microfinance organizations. And other organizations providing financial and credit services.
                     </p>
                 </div>
             </div>

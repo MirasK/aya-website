@@ -20,7 +20,7 @@ function Home() {
             dolore magna aliqua. Ut enim ad minim. sed do eiusmod tempor incididunt.
         </p>
 
-        <a href="https://www.youtube.com/"><button className="banner__btn">Watch the video</button></a>
+        <a href="https://youtu.be/-Ut2aLfzeU0"><button className="banner__btn">Watch the video</button></a>
         <NavLink className="Banner__link" to="/contacts">
           <button className="banner__btn">Become partner</button>
         </NavLink>
@@ -37,26 +37,26 @@ function Home() {
             <i className = "icon-lightbulb ico"></i>
             <img src={download} alt="download" />
             <h2 className = "work-detail__title">Download the App</h2>
-            <p className = "work__paragraph">Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name</p>
+            <p className = "work__paragraph">Download the AYA app or bank's app with AYA SDK extension.</p>
           </div>
           <div className = "work-detail">
             <i className = "icon-tools ico"></i>
             <img src={loan} alt="loan" />
-            <h2 className = "work-detail__title">Apply for a Loan</h2>
-            <p className = "work__paragraph">Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name</p>
+            <h2 className = "work-detail__title">Allow data processing</h2>
+            <p className = "work__paragraph">Allow AYA to process data on your mobile phone and wait for the bank's decision.</p>
           </div>
           <div className = "work-detail">
             <i className = "icon-map ico"></i>
             <img src={shield} alt="shield" />
             <h2 className = "work-detail__title">Your Data is Secure</h2>
-            <p className = "work__paragraph">Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name</p>
+            <p className = "work__paragraph">Be sure, your data is secured and sanitized.</p>
           </div>
 
           <div className = "work-detail">
             <i className = "icon-map ico"></i>
             <img src={test} alt="test"/>
             <h2 className = "work-detail__title">You’re Approved!</h2>
-            <p className = "work__paragraph">Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name</p>
+            <p className = "work__paragraph">Once approved, congratulations! You’ve been approved for your loan!</p>
           </div>
       </div>
     </section>
