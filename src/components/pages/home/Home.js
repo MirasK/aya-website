@@ -14,12 +14,12 @@ function Home() {
       <div className="banner__content">
         <h6 className="banner__top">DON’T LOOK FURTHER, HERE IS THE KEY</h6>
         <h1 className="banner__title" >AYA - Future of Finance</h1>
-        <p className="banner__subtitle" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
-            sed do eiusmod tempor incididunt ut labore et 
+        <p className="banner__subtitle" >Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+            sed do eiusmod tempor incididunt ut labore et
             <br/>
             dolore magna aliqua. Ut enim ad minim. sed do eiusmod tempor incididunt.
         </p>
-          
+
         <a href="https://www.youtube.com/"><button className="banner__btn">Watch the video</button></a>
         <NavLink className="Banner__link" to="/contacts">
           <button className="banner__btn">Become partner</button>
@@ -30,7 +30,7 @@ function Home() {
     <section className = "work">
       <div className = "work-header">
         <h1 className = "work-header__main-title">How It Works</h1>
-        <p className = "work__paragraph">Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name</p>
+        <p className = "work__paragraph"></p>
       </div>
       <div className = "work-details">
           <div className = "work-detail">
@@ -59,11 +59,10 @@ function Home() {
             <p className = "work__paragraph">Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name</p>
           </div>
       </div>
-    </section>    
+    </section>
 
     </>
- 
+
   );
 }
 export default Home;
-
